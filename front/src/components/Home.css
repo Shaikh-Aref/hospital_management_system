@@ -1,0 +1,98 @@
+ /* .blue-section {
+    background-color: #007bff; 
+    padding: 20px 0;
+  }
+  
+  .blue-section h2,
+  .blue-section p {
+    color: white;
+  }
+  
+  .blue-section .custom-select {
+    background-color: white;
+    color: #007bff;
+  }
+  
+  .cards-section .card {
+    margin-bottom: 20px;
+  }
+  
+  .why-choose-section .card {
+    margin-bottom: 20px;
+  } */
+  /* Home.css */
+
+.blue-section {
+  /*background-image: url('https://www.conseil-national.medecin.fr/sites/default/files/images/adobestock_92345619_0.jpeg'); /* Replace 'your-image-url.jpg' with the URL of your background image */
+  background-size: cover;
+  background-position: center;
+  padding: 20px 0;
+  background-color: rgb(148, 190, 239);
+}
+
+.blue-section h2,
+.blue-section p {
+  color: rgb(255, 255, 255);
+}
+
+.blue-section .custom-select,
+.blue-section .btn-light {
+  background-color: rgb(241, 241, 250);
+  color: #007bff;
+  border: none;
+}
+
+.blue-section .custom-select:focus,
+.blue-section .btn-light:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.cards-section .card {
+  margin-bottom: 20px;
+}
+
+.why-choose-section .card {
+  margin-bottom: 20px;
+}
+
+.custom-card {
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  background-color: #68d9ff; /* Light blue */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(6, 35, 185, 0.2);
+}
+
+.custom-card .card-body {
+  max-height: 200px; /* Adjust this value as needed */
+  overflow-y: auto; /* Add scroll option */
+}
+
+.custom-card .card-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #150475;
+}
+
+.custom-card .card-text {
+  font-size: 16px;
+  color: #666;
+}
+
+.cards-section .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards-section .col-md-4 {
+  flex: 1;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.background-container {
+    background-image: url('https://www.semiosissoftware.com/wp-content/uploads/2020/02/Doctor-Appointment-System-1536x840.jpg'); /* Path to your background image */
+    background-size: cover; /* Make the background image cover the entire container */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the background image */
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    display: flex;
+    justify-content: center; /* Center the form horizontally */
+    align-items: center; /* Center the form vertically */
+}
+
+form {
+    background: rgba(255, 255, 255, 0.8); /* White background with some transparency */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+form div {
+    margin-bottom: 10px; /* Space between form fields */
+}
+
+form label {
+    font-weight: bold; /* Make labels bold */
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="date"] {
+    width: 100%;
+    padding: 10px; /* Increase padding for inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+    width: 100%;
+    padding: 10px; /* Increase padding for button */
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+    display: block;
+  }

@@ -1,0 +1,43 @@
+/* src/components/LoginPage.css */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Use full viewport height */
+    padding: 20px; /* Added padding for spacing */
+    background-color: #f7f9fc;
+  }
+  
+  .navbar {
+    position: fixed; /* Ensure the navigation bar stays fixed at the top */
+    top: 0; /* Position it at the top */
+    width: 100%; /* Occupy full width */
+    z-index: 1000; /* Ensure the navigation bar appears above other elements */
+  }
+  
+  .login-card {
+    padding: 40px; /* Increased padding for more spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Added border radius for a softer look */
+    width: 80%; /* Occupy 80% of the container's width */
+    max-width: 600px; /* Set maximum width for the box */
+    margin-top: 60px; /* Adjust margin to create space below the navigation bar */
+    position: relative; /* Ensure relative positioning */
+    z-index: 999; /* Ensure the login card appears above other elements except the navigation bar */
+  }
+  
+  .login-card h2 {
+    color: #007bff; /* Bootstrap primary color */
+    margin-bottom: 20px; /* Added margin for spacing */
+  }
+  
+  .login-card .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    width: 100%; /* Button width to fill the container */
+  }
+  
+  .login-card .text-primary {
+    color: #007bff !important;
+  }
+  
