@@ -1,0 +1,52 @@
+/* Ensure the body covers the full viewport and the background image covers the entire page */
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url(th6.jpg); /* Use your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Set semi-transparent background color */
+    padding: 50px; /* Increase padding for a larger look */
+    border-radius: 20px; /* Add border radius */
+    max-width: 500px; /* Increase max-width for larger container */
+    width: 100%; /* Ensure it takes full width */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Increase box shadow for a better look */
+  }
+  
+  .login-container h2 {
+    color: #333; /* Set heading color */
+  }
+  
+  .login-container .form-control {
+    border: 1px solid #ccc; /* Set border color for form controls */
+  }
+  
+  .login-container .form-control:focus {
+    border-color: #007bff; /* Set focus border color */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Add focus box shadow */
+  }
+  
+  .login-container .btn-primary {
+    background-color: #007bff; /* Set button background color */
+    border: none; /* Remove button border */
+  }
+  
+  .login-container .btn-primary:hover {
+    background-color: #0056b3; /* Set button hover background color */
+  }
+  
+  .text-center a {
+    color: #007bff;
+  }
+  
+  .text-center a:hover {
+    text-decoration: underline;
+  }
+  

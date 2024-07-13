@@ -1,0 +1,11 @@
+export const NODE_BASE_ROUTE = "http://127.0.0.1:8008";
+export const NODE_ADMIN_ALL_DOCTORS = `${NODE_BASE_ROUTE}/all-doctors`;
+export const NODE_REMOVE_DOCTOR = `${NODE_BASE_ROUTE}/admin/del-doctor`;
+export const NODE_ADD_DOCTOR = `${NODE_BASE_ROUTE}/admin/add-doctor`
+export const NODE_GET_OTP = `${NODE_BASE_ROUTE}/user/otp-autorized`;
+export const NODE_PENDING_STATUS =  `${NODE_BASE_ROUTE}/pendingStatus`;
+export const NODE_CHANGE_STATUS = `${NODE_BASE_ROUTE}/admin/changestatus`;
+export const NODE_GET_STATUS = `${NODE_BASE_ROUTE}/user/status`;
+export const NODE_LOGIN_ROUTE = `${NODE_BASE_ROUTE}/login`;
+export const NODE_SIGNUP_ROUTE = `${NODE_BASE_ROUTE}/signup`;
+export const NODE_ALL_USERS = `${NODE_BASE_ROUTE}/admin/all-appointments`;
